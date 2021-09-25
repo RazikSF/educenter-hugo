@@ -95,6 +95,7 @@ link:focus,
 
   @include desktop {
     padding: 20px;
+    background: $secondary-color;
   }
 }
 
@@ -124,7 +125,7 @@ link:focus,
       top: 96px;
       border-radius: 0;
       display: block;
-      visibility: hidden;
+      visibility: visible;
       transition: 0.3s ease;
       opacity: 0;
       transform: translateY(20px);
@@ -139,7 +140,7 @@ link:focus,
       }
 
       &.show {
-        visibility: hidden;
+        visibility: visible;
 
         @include desktop {
           visibility: visible;
